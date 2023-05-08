@@ -16,6 +16,3 @@ def sort_numbers():
 
 if __name__ == '__main__':
    app.run()
-
-
-# srinivas@alvyl.com
