@@ -7,13 +7,22 @@ Before running the app, you'll need to have the following installed:
 - Docker
 - Docker Compose
 
-## Getting started
+### Getting started with docker pull
+Pull the docker image from docker hub using
+```commandline
+docker pull bharadwajdasari/flaskappexample
+```
+once the image is available then run the docker image 
+```commandline
+docker run -d -p 8000:5000 bharadwajdasari/flaskappexample
+```
+### Getting started with git
 To get started, clone this repository to your local machine:
 ```
 cd flaskapp
 ```
 
-## Running the app
+#### Running the app
 To run the app, use the following command:
 ```
 docker-compose up
@@ -21,7 +30,7 @@ docker-compose up
 
 This will start the app container and expose it on port 8000. You can then make requests to the app using a tool like curl or a web client.
 
-## Making requests
+# Making requests
 ```
 python3 client.py
 ```
